@@ -71,3 +71,8 @@ echo hello bash > stdout.txt
 > stdout.txt
 bad_command
 bad_command > stderr.txt
+echo bad_command > stderr.txt
+bad command 2> stderr.txt
+echo bad command 2> stderr.txt
+echo bad_command 2> stderr.txt
+bad_command 2> stderr.txt
